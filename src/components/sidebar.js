@@ -5,8 +5,8 @@ export default class Sidebar extends React.Component{
     {
         return(
             <div className="sidebar col">
-                <div>
-                    test
+                <h2 className="sidebar-heading">Topics</h2>
+                <div>  
                 </div>
             </div>
         )
