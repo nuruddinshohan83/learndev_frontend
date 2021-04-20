@@ -47,7 +47,7 @@
 .cover-img{
     flex-basis: 35%;
     flex-grow: 0;
-    background-image: url('../img/cover.jpg');
+    background-image: url('https://picsum.photos/200');
     background-position: center; /* Center the image */
     background-size: cover; 
 }
