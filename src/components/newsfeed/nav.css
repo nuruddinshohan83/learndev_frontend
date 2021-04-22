@@ -14,6 +14,7 @@
     padding: .7rem;
     list-style: none;
     margin: .2rem 1rem .2rem 0;
+    position: relative;
 }
 .nav-bar>ul>li>img{
     width: 40px;

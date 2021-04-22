@@ -1,0 +1,8 @@
+.nav-popup{
+    width: 10rem;
+    height:  10rem;
+    background-color: cadetblue;
+    left: 105%;
+    top: -10px;
+    position: absolute;
+}

@@ -12,7 +12,7 @@
     align-items: flex-start;
 }
 .img{
-    background-image: url('../img/propic.png');
+    
     background-position: center; /* Center the image */
     background-size: cover; 
     flex-basis: 45px;
