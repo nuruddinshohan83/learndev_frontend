@@ -17,6 +17,219 @@
       { "id": 4, "title": "“The sky was cloudless and of a deep dark blue.", "author": "Nur Uddin Shohan", "des" : "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle."
         ,"uptime" : "14th April","dpurl": "https://picsum.photos/200" }
     ],
-    "profile": { "name": "sumn2u" }
+    "postsmod" : [
+      {
+          "title": "How (and Why) You Should Post on DevDojo Today",
+          "postid" : 671864,
+          "des" :"Today I want to share a great new developer community that you can use to share your blog posts and k...",
+          "cover_image" : "https://res.cloudinary.com/practicaldev/image/fetch/s--nx70BJ6H--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ij8llmq2bcl4ln7qzjc6.jpeg",
+          "data" : "2021-04-19T18:29:08Z",
+          "tag_list": ["tutorial", "devdojo", "blogging", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 1,
+              "profile_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title": "The React Router Cheatsheet: Everything You Should Know",
+          "postid" : 	671655,
+          "des" :"If you're building React applications for the web, you're going to need to use a dedicated router to...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--l_TkLpeH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://reedbarger.com/content/images/2021/04/the-react-router-cheatsheet.png",
+          "data" : "2021-04-19T14:30:14Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 2,
+              "profile_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title": "5 Things Every React Developer Should Know About State",
+          "postid" : 	668581,
+          "des" :"One of the most important concepts for every React developer is state--what it is, how to properly us...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--ccqYuvp5--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://reedbarger.com/content/images/2021/04/5-things-every-react-developer-should-know-about-state.png",
+          "data" : "2021-04-16T17:03:36Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 2,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"Still Using HTML? Start Using React Components",
+          "postid" : 	667192,
+          "des" :"HTML is the language of the web, but creating entire websites with HTML alone can be repetitive and h...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--iAkfhYIH--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://reedbarger.com/content/images/2021/03/still-using-html-start-using-react-components.png",
+          "data" : "2021-04-15T16:51:58Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 2,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"5 Key Lessons React Tutorials Don't Teach",
+          "postid" : 	666192,
+          "des" :"There are many essential concepts and lessons that React developers need to know that simply aren't c...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--iiEyhEsB--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://reedbarger.com/content/images/2021/04/5-key-lessons-react-tutorials-dont-teach.png",
+          "data" : "2021-04-14T17:15:50Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 1,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"Is React a Library or a Framework? Why It Matters",
+          "postid" : 	664244,
+          "des" :"Developers have spent a great deal of time what React is, but have left out why this topic matters so...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--BQC0j444--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://reedbarger.com/content/images/2021/04/is-react-a-library-or-framework.png",
+          "data" : "2021-04-13T14:05:56Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 6,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"Make Your React Apps Responsive with a Custom Hook",
+          "postid" : 	663051,
+          "des" :"📣 This post originally appeared on ReedBarger.com.  How do you make your React applications responsiv...",
+          "cover_image" :	"https://res.cloudinary.com/practicaldev/image/fetch/s--B247QGYv--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://reedbarger.com/content/images/2021/03/make-your-react-apps-responsive-with-a-custom-hook.png",
+          "data" : "2021-04-12T14:19:30Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 7,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"The React Tutorial for 2021: A Complete Guide",
+          "postid" : 	662056,
+          "des" :"Welcome to a tutorial made to help you become effective with React as quickly as possible as you buil...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--FkQbKTNN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://blog.reedbarger.com/content/images/2021/04/the-complete-react-tutorial-2021-1.png",
+          "data" : "2021-04-11T13:46:53Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 8,
+              "profile_image":	"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"5 React Libraries You Should Be Using in 2021",
+          "postid" : 	660201,
+          "des" :"📣 This post originally appeared on ReedBarger.com.  Let's take a look at five React libraries that se...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--XiRc2U3g--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://blog.reedbarger.com/content/images/2021/04/react-libraries-you-should-be-using-1.png",
+          "data" : "2021-04-09T14:21:30Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 9,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"7 Ways to Write Cleaner React Code Today",
+          "postid" : 	656795,
+          "des" :"📣 This post originally appeared on ReedBarger.com.  As React developers, we all want to write cleaner...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--cYS-YCW5--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://blog.reedbarger.com/content/images/2021/04/7-ways-to-write-clean-react-code.png",
+          "data" : "2021-04-06T14:37:28Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 10,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"How to Create Your First React Hook from Start to Finish",
+          "postid" : 	655781,
+          "des" :"📣 This post originally appeared on ReedBarger.com.  You can use custom React hooks to solve many diff...",
+          "cover_image" :"https://res.cloudinary.com/practicaldev/image/fetch/s--2rcdXFUs--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://blog.reedbarger.com/content/images/2021/04/how-to-code-react-hooks.png",
+          "data" :"2021-04-05T16:43:14Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 11,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+          "title":"How To Build a YouTube Clone with React",
+          "postid" : 	646720,
+          "des" :"📣 This post originally appeared on ReedBarger.com.  In this tutorial, you will get an in-depth overvi...",
+          "cover_image" :	"https://res.cloudinary.com/practicaldev/image/fetch/s--l7Renj8U--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://blog.reedbarger.com/content/images/2021/02/how-to-build-youtube-with-react.png",
+          "data" : 	"2021-03-26T14:41:56Z",
+          "tag_list": ["react", "javascript", "tutorial", "beginners"],
+          "user" : {
+              "name": "Reed Barger",
+              "username": "reedbarger",
+              "id": 12,
+              "profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+          }
+      },
+      {
+
+      }
+  ],
+    "usersmod" : [{
+            "id": 1,
+            "name": "Reed Barger",
+            "username": "reedbarger",
+            "bio" : "",
+            "github_username":"codeartistryio",
+            "website_url":"https://bit.ly/join-react-bootcamp",
+            "location" : "NY",
+            "profile_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+        },
+        {
+            "id": 2,
+            "name": "User2",
+            "username": "user2",
+            "bio" : "",
+            "github_username":"codeartistryio",
+            "website_url":"https://bit.ly/join-react-bootcamp",
+            "location" : "NY",
+            "profile_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+        },
+        {
+            "id": 3,
+            "name": "User Three",
+            "username": "User Three",
+            "bio" : "",
+            "github_username":"codeartistryio",
+            "website_url":"https://bit.ly/join-react-bootcamp",
+            "location" : "NY",
+            "profile_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+        },
+        {
+            "id": 4,
+            "name": "User Four",
+            "username": "User Four",
+            "bio" : "",
+            "github_username":"codeartistryio",
+            "website_url":"https://bit.ly/join-react-bootcamp",
+            "location" : "NY",
+            "profile_image": "https://res.cloudinary.com/practicaldev/image/fetch/s--FaZx0aHz--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/211844/84fe344c-de23-4767-89f3-2e4dde2331a4.JPG"
+        }
+    ]
   
 }

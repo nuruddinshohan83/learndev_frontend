@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './newsfeed.css'
 import Post from './post'
 
 export default class Newsfeed extends React.Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
+        this.props = {match :{}}
         this.state = {
             data : []
         }
     }
     fetchApi(){
-        console.log("api called")
         let url = "http://localhost:3030/testposts"
         fetch(url)  
             .then(response => response.json())
@@ -18,9 +18,7 @@ export default class Newsfeed extends React.Component{
                 this.setState({
                     data : json
                 })
-                //console.log(this.state.data)
             })
-
     }
     componentDidMount(){
         this.fetchApi()
@@ -35,11 +33,24 @@ export default class Newsfeed extends React.Component{
                         return <Post data = {ele} />
                     })
                 }
-                
-               
-
             </div>
         )
     }
     
 } 
+
+function ModNewsfeed(){
+    const [apidata,apiCall] = useState({})
+    let data = {}
+    return(
+        <div className="newsfeed col">
+            <h2 className="newsfeed-heading">News Feed</h2>
+            {
+                data.map(ele=>{ 
+                    return <Post data = {ele} />
+                })
+            }
+        </div>
+    )
+
+}

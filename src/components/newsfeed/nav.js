@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import Navpopup  from './Navpopup.js' ;
 import './nav.css'
     
-function Nav(props){
+function Nav(){
     const [status,toggleStatus] = useState(false)
     function ddHandeler(){
-        console.log("ddhandler function called")
         toggleStatus(()=>!status)
     }
     return(

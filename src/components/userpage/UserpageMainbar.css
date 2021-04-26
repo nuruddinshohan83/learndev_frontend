@@ -1,0 +1,15 @@
+.userpage-mainbar{
+    flex-basis: 60%;
+}
+.userpage-mainbar>h1,.userpage-mainbar>p{
+    text-align: center;
+}
+.proimg{
+    width: 6rem;
+    height: 6rem;
+    border: 1px red solid;
+    border-radius: 200px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}

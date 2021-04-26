@@ -1,0 +1,53 @@
+.post{
+    margin: 1.5rem 1rem;
+    padding: 1rem 2rem;
+
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04), 0px 4px 8px rgba(96, 97, 112, 0.16);
+    border-radius: 8px;
+}
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.img{
+    
+    background-position: center; /* Center the image */
+    background-size: cover; 
+    flex-basis: 45px;
+    height: 45px;
+    flex-grow: 0;
+
+    margin-right: .5rem ;
+}
+.user-name{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: .2rem 0;
+}
+.upload-time{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+
+    margin: .2rem 0;
+}
+
+.text{
+    display: flex;
+}
+.text-col{
+    flex-basis: 65%;
+    flex-grow: 0;
+}
+.text-col>h3{
+    font-size: 1.5rem;
+    margin: .5rem .2rem;
+}
+.cover-img{
+    flex-basis: 35%;
+    flex-grow: 0;
+    background-image: url('https://picsum.photos/200');
+    background-position: center; /* Center the image */
+    background-size: cover; 
+}
