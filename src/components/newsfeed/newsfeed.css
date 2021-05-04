@@ -1,11 +1,22 @@
 .newsfeed{
     flex-basis: 54.16%;
     background-color: var(--bg);
-    height: 100vh;
+
 }
 .newsfeed-heading{
     font-weight: 400;
     font-size: 2rem;
     line-height: 38px;
     margin: 1rem .5rem;
+}
+.post-upload{
+    margin-left: 1.5rem;
+    background-color: var(--base); /* Green */
+    border: none;
+    color: white;
+    padding: .8rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

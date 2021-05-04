@@ -1,29 +1,54 @@
 import './post.css'
+import Comment from "./comment"
 import { Link, Router } from 'react-router-dom';
+import { useState } from 'react';
+
+
 export default function Post(props){
-    let test=props.data.id
-    console.log(props)
+    //console.log(props.data.userinfo.userid)
+    let date = props.data.userinfo.image;
+    const [comment,setComment] = useState(false)
+    function toggleComment(){
+        setComment(el=>!el)
+        console.log("comment Clicked")
+    }
     return(
-        <Link to = {`{post/${props.data.id}}`}>
-        <div className="post">
-            <Link to={`user/${test}`}>
-                <div className="user">
-                    <div className="img" style = {{
-                        "background-image" : `url('https://picsum.photos/id/${props.data.id}/300')`}}></div>
-                    <div>
-                        <p className="user-name">{props.data.author}</p>
-                        <p className="upload-time">{props.data.uptime}</p>
+        
+            <div className="post">
+                
+                <Link to = {`/post/${props.data.id}`} style={{ textDecoration: 'none' }}>
+                    <Link to={`user/${props.data.userinfo.userid}`} style={{ textDecoration: 'none' }}>
+                        <div className="user">
+                            <div className="img" style = {{
+                                "background-image" : `url(${props.data.userinfo.image})`}}></div>
+                            <div>
+                                <p className="user-name">{props.data.userinfo.username}</p>
+                                <p className="upload-time">{"14th Dec"}</p>
+                            </div>
+                        </div>
+                    </Link>
+                    {(props.data.forums !== "") &&
+                    <>  
+                        <p className="forum-name">Forum</p>
+                        <p className="forum">Javascript Developers</p>
+                        <br/>
+                    </>    
+                    }
+
+                   
+                    {props.data.tags.map(el=>(<p className="tags">{el}</p>))}
+                    <div className="text">
+                        <div className="text-col" >
+                            <h3>{props.data.title}</h3>
+                            <p>{props.data.post.substr(0, 70)}</p>
+                        </div>
+                        <div className="cover-img" style = {{"background-image" : `url('${props.data.coverimage}')`}}> </div>
                     </div>
-                </div>
-            </Link>
-            <div className="text">
-                <div className="text-col" >
-                    <h3>{props.data.title}</h3>
-                    <p>{props.data.des}</p>
-                </div>
-                <div className="cover-img"> </div>
+                </Link>
+                <p onClick={toggleComment} className="comment-button">Comment</p>
+                {(comment) && <Comment postid={props.data.id} />}
+                
             </div>
-        </div>
-        </Link>
+       
     )
 }

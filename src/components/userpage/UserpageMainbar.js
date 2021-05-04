@@ -1,48 +1,48 @@
 import  './UserpageMainbar.css'
 import React, { useEffect, useState } from 'react';
 import UserPost from './UserPost';
+import firebase from '../../firebase'
 
 import { useParams } from 'react-router';
 
 function UserpageMainbar(){
     let id = useParams();
-    let url = `http://localhost:3030/usersmod/${id.userId}`
-    let url2= `http://localhost:3030/postsmod?user.id=${id.userId}`
-    console.log("🚀 ~ file: UserpageMainbar.js ~ line 11 ~ UserpageMainbar ~ url2", url2)
+    console.log(id)
+    let refUser = firebase.firestore().collection("users").doc(id.userId)
+    let refPost = firebase.firestore().collection("posts").where("userinfo.userid", "==", `${id.userId}`)
+
+
     console.log("🚀 ~ file: UserpageMainbar.js ~ line 10 ~ UserpageMainbar ~ id", id)
-    const[apidata,setApidata] = useState({})
-    const[userpost,setUserpost] = useState([])
+    const[userData,setUserData] = useState({})
+    const[userPost,setUserPost] = useState([])
     
     useEffect(()=>{
-        userApi(url)
-        userPostApi(url2)
+        console.log(refUser)
+        refUser.get().then(ele=>{
+            setUserData(ele.data())
+        })
+
+        refPost.get().then((querySnapshot) => {
+            let items=[]
+            querySnapshot.forEach((doc) => {
+                items.push(doc.data())
+            });
+            setUserPost(items)
+        })
     },[])
 
-    function userApi(userurl){
-        fetch(userurl)
-        .then(response=>response.json())
-        .then(json=>{
-            setApidata(()=>json)
-            console.log(apidata)
-            console.log(`user api called`)
-        })
-    }
-    function userPostApi(posturl){
-        fetch(posturl)
-        .then(response=>response.json())
-        .then(json=>{
-            setUserpost(()=>json)
-            console.log(userpost)
-
-        })
-    }
+    
+    
 
         return (
             <div className= "col userpage-mainbar">
-                <div className="proimg"  style ={{backgroundImage:'url(https://picsum.photos/id/2/300)'}} />
-                <h1>{`${apidata.name}`}</h1>
-                <p>Test</p>
-                {userpost.map(ele=>{
+                <div className="proimg"  style ={{backgroundImage:`url(${userData.image})`}} />
+                <h1>{`${userData.name}`}</h1>
+                <p>{`${userData.bio}`}</p>
+                <p>{`${userData.from}`}</p>
+
+                {userPost.map(ele=>{
+                    console.log(ele)
                     return  <UserPost data = {ele} />
                 })}
                 

@@ -7,6 +7,7 @@
     --light: #8F90A6;
     --dark: #555770;
     --bg: #F2F2F5;
+    --base: #78C6DF;
   }
 body{
     font-family: 'Inter', sans-serif;
@@ -30,5 +31,26 @@ body{
 .main-con{
     margin: 0 auto;
     width: 90%;
-    border: .2px solid black;
+
+}
+#post{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+
+button{
+    
+    background-color: var(--base); /* Green */
+    border: none;
+    color: white;
+    padding: .5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

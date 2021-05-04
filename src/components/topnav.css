@@ -10,9 +10,18 @@
     padding-top: 1rem;
     box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08), 0px 0.5px 2px rgba(96, 97, 112, 0.16);
 }
+.top-nav-button{
+    padding: .5rem 1rem;
+    margin: 0 1rem;
+    
+}
+.top-nav-leftcomp{
+    display: flex;
+}
 .top-nav-leftcomp>*{
     margin: 0 .5rem;
 }
+
 .top-nav-propic{
     width: 2rem;
 }

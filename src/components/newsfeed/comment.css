@@ -1,0 +1,18 @@
+.comment{
+    border-top: black 1px solid;
+    margin: 1rem 0;
+    padding-top: .5rem;
+
+}
+.single-comment{
+    margin: .5rem 0;
+}
+.commenter{
+    display: flex;
+}
+.commeter-image{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: cover;
+    background-position: center;
+}
