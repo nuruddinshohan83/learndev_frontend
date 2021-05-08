@@ -11,6 +11,7 @@ import SignUp from './components/auth/signup';
 import { AuthProvider } from './components/auth/auth';
 import Porfile from './components/profile/profile';
 import Postpage from './components/postpage/postpage';
+import Tag from './components/tag/tag';
 
 function App() {
   localStorage.setItem("loggedin", false);
@@ -28,6 +29,8 @@ function App() {
           <Route path="/post/:postId" component ={Postpage} />
           <Route path="/test" component ={Test} />
           <Route path="/uploadpost" component ={UploadPost} />
+          <Route path="/tags/:tagname" component ={Tag} />
+
           <AuthProvider>
             <Route path="/signin" component ={SignIn} />
             <Route path="/signup" component ={SignUp} />

@@ -28,7 +28,7 @@
     flex-basis: 45px;
     height: 45px;
     flex-grow: 0;
-
+    border-radius: 6px;
     margin-right: .5rem ;
 }
 .user-name{
@@ -74,9 +74,9 @@
     margin: .5rem .2rem;
 }
 .cover-img{
-    flex-basis: 35%;
+    height: 8rem;
+    flex-basis: 40%;
     flex-grow: 0;
-    background-image: url('https://picsum.photos/200');
     background-position: center; /* Center the image */
     background-size: cover; 
 }

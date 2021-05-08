@@ -26,11 +26,11 @@ function Topnav(){
             <img src="/img/logo.svg" />
             <div>
             {(loggedIn == false) && <Link to="/signin"><button className="top-nav-button">Sign In</button></Link>}
-            {(loggedIn == false) && <Link to="/signup"><button className="top-nav-button">Sign In</button></Link>}
+            {(loggedIn == false) && <Link to="/signup"><button className="top-nav-button">Sign Up</button></Link>}
             
             </div>
             {(loggedIn == true) && <div className= "top-nav-leftcomp"> 
-                <img className="top-nav-propic" src= "/img/profile.svg" />
+                <img className="top-nav-propic" src= "/img/pro.svg" />
                 <img className="top-nav-notification" src= "/img/notification.svg"/>
                 <button onClick={singOut}>Log out</button>
             </div>}

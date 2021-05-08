@@ -25,7 +25,9 @@ function UserpageMainbar(){
         refPost.get().then((querySnapshot) => {
             let items=[]
             querySnapshot.forEach((doc) => {
-                items.push(doc.data())
+                let temp = doc.data()
+                temp.id = doc.id
+                items.push(temp)
             });
             setUserPost(items)
         })

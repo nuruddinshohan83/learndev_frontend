@@ -5,8 +5,8 @@ import { useState } from 'react';
 
 
 export default function Post(props){
-    //console.log(props.data.userinfo.userid)
-    let date = props.data.userinfo.image;
+    console.log(props.data.userinfo.image)
+    //let date = props.data.userinfo.image;
     const [comment,setComment] = useState(false)
     function toggleComment(){
         setComment(el=>!el)
@@ -34,9 +34,7 @@ export default function Post(props){
                         <br/>
                     </>    
                     }
-
-                   
-                    {props.data.tags.map(el=>(<p className="tags">{el}</p>))}
+                    {props.data.tags.map(el=>(<Link to={`/tags/${el}`}><p className="tags">{el}</p></Link>))}
                     <div className="text">
                         <div className="text-col" >
                             <h3>{props.data.title}</h3>
